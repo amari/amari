@@ -28,6 +28,15 @@ I enjoy solving problems where performance, correctness, and design all collide.
 
 ---
 
+### 🛠️ [bazelbuild/platforms](https://github.com/bazelbuild/platforms) – Bazel platform definitions
+- **Contribution**: [PR #97](https://github.com/bazelbuild/platforms/pull/97)  
+  - Added a new OS constraint `@platforms//os:uefi` to support UEFI firmware targets.  
+  - Motivated by work on a **type‑1 hypervisor**, where we needed to build freestanding ELF binaries for UEFI.  
+  - Coordinated with changes in `rules_rust` and `rules_go` so toolchains could properly target UEFI.  
+- **Impact**: Enabled clean, upstream support for UEFI in Bazel’s platform model, unblocking Rust and C++ projects that target firmware and hypervisors.
+
+---
+
 ## 🛠️ Original Projects
 
 ### [fxevent-zerolog](https://github.com/amari/fxevent-zerolog)
