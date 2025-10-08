@@ -43,9 +43,7 @@ A cloud metadata server written in Go.
 ---
 
 ## 🌟 What I’m Building Next
-- A flagship Go backend project (REST API + Postgres + Docker) to showcase end-to-end design.  
-- More Rust systems tools (thinking about a toy database or a lock-free queue).  
-- Continued contributions to open-source systems libraries.  
+- A Ceph-like Storage System
 
 ---
 
