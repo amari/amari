@@ -37,8 +37,7 @@ A lightweight adapter for using `zerolog` with Uber’s Fx framework.
 
 ### [cleta](https://github.com/amari/cleta) *(archived)*
 A cloud metadata server written in Go.  
-- Experiment in building lightweight cloud infrastructure components.  
-- Lessons learned: service discovery, metadata APIs, and Go concurrency patterns.  
+- Experiment in building a cloud-init server.
 
 ---
 
